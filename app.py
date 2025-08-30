@@ -5,7 +5,7 @@ from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup, WebAppI
 from telegram.ext import Application, CommandHandler, CallbackQueryHandler, ContextTypes, MessageHandler, filters
 
 # --- Configuration ---
-BOT_TOKEN = "8363419283:AAEw73eG1Qi0Ynd_UXX4Mal5r7kZnmRhI5I"
+BOT_TOKEN = ""
 WEB_APP_URL = "telegram-mini-app-ten-red.vercel.app"  # Your hosted web app URL
 CPAGRIP_LINK = "https://www.cpagrip.com/offer.php?offer_id=12345&user_id={user_id}"
 
