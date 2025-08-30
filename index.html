@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Earn App</title>
+    <script src="https://telegram.org/js/telegram-web-app.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>💰 Earn Coins</h1>
+            <div class="wallet">
+                <span id="balance">0</span> coins
+            </div>
+        </header>
+
+        <main>
+            <div class="section">
+                <h2>Available Offers</h2>
+                <div id="offers-list" class="offers-grid">
+                    <!-- Offers will be loaded here -->
+                </div>
+            </div>
+
+            <div class="section">
+                <h2>My Earnings</h2>
+                <div class="stats">
+                    <div class="stat-card">
+                        <h3>Total Earned</h3>
+                        <span id="total-earned">0</span> coins
+                    </div>
+                    <div class="stat-card">
+                        <h3>Completed Offers</h3>
+                        <span id="completed-offers">0</span>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
