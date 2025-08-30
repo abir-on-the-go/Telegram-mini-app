@@ -48,7 +48,7 @@ class EarnApp {
 
     renderOffers() {
         const offers = [
-            { id: 1, title: "Survey", reward: 5, time: "2-3 min", url: "https://cpagrip.com/offer1" },
+            { id: 1, title: "Survey", reward: 5, time: "2-3 min", url: "https://otieu.com/4/9796144" },
             { id: 2, title: "App Install", reward: 8, time: "5 min", url: "https://cpagrip.com/offer2" },
             { id: 3, title: "Sign Up", reward: 10, time: "1 min", url: "https://cpagrip.com/offer3" },
             { id: 4, title: "Watch Video", reward: 3, time: "30 sec", url: "https://cpagrip.com/offer4" }
